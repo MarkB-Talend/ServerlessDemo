@@ -9,9 +9,9 @@
     <relativePath>../../../</relativePath>
   </parent>
   <groupId>org.example.serverlessdemo.job</groupId>
-  <artifactId>loadSnowflake</artifactId>
+  <artifactId>loadsnowflake</artifactId>
   <version>0.1.0</version>
-  <name>SERVERLESSDEMO loadSnowflake-0.1.0 (0.1,Job Designs)</name>
+  <name>SERVERLESSDEMO loadsnowflake-0.1.0 (0.1,Job Designs)</name>
   <properties>
     <output.resources.dir>${talend.job.name}/src/main/resources</output.resources.dir>
     <talend.job.applyContextToChildren>false</talend.job.applyContextToChildren>
@@ -33,7 +33,7 @@
     <talend.job.stat>true</talend.job.stat>
     <talend.job.date>${maven.build.timestamp}</talend.job.date>
     <current.resources.dir>${basedir}/src/main/ext-resources</current.resources.dir>
-    <talend.job.name>loadSnowflake</talend.job.name>
+    <talend.job.name>loadsnowflake</talend.job.name>
     <talend.job.id>_U5LIwGn2EeiIqf7rdUE6jA</talend.job.id>
     <talend.project.id>0</talend.project.id>
     <talend.job.framework></talend.job.framework>
