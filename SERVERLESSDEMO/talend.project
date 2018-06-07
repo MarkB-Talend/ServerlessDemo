@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_K37vUWngEeiIqf7rdUE6jA" label="ServerlessDemo" description="Serverless Demo on a public Repo DO NOT Share Keys" language="java" technicalLabel="SERVERLESSDEMO" author="_K37vUmngEeiIqf7rdUE6jA" productVersion="Talend Cloud Real-Time Big Data Platform-7.0.1.20180411_1414" url="{&quot;location&quot;:&quot;https://github.com/MarkB-Talend/ServerlessDemo.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" bigData="false">
+  <TalendProperties:Project xmi:id="_K37vUWngEeiIqf7rdUE6jA" label="ServerlessDemo" description="Serverless Demo on a public Repo DO NOT Share Keys" language="java" technicalLabel="SERVERLESSDEMO" author="_K37vUmngEeiIqf7rdUE6jA" productVersion="Talend Cloud Real-Time Big Data Platform-7.0.1.20180411_1414" url="{&quot;location&quot;:&quot;https://github.com/MarkB-Talend/ServerlessDemo.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
     <technicalStatus xmi:id="_NQm24GngEeiIqf7rdUE6jA" label="development" code="DEV"/>
     <technicalStatus xmi:id="_NQm24WngEeiIqf7rdUE6jA" label="testing" code="TEST"/>
     <technicalStatus xmi:id="_NQm24mngEeiIqf7rdUE6jA" label="production" code="PROD"/>
@@ -85,6 +85,24 @@
         <elementParameter xmi:id="_frUez2ngEeiIqf7rdUE6jA" field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value="" contextMode="false"/>
       </parameters>
     </implicitContextSettings>
+    <ItemsRelations xmi:id="_XppeIGprEeigk6ZrtpA40Q">
+      <baseItem xmi:id="_XppeIWprEeigk6ZrtpA40Q" id="_U5LIwGn2EeiIqf7rdUE6jA" version="0.1" type="job"/>
+      <relatedItems xmi:id="_XppeImprEeigk6ZrtpA40Q" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_XppeI2prEeigk6ZrtpA40Q" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_XppeJGprEeigk6ZrtpA40Q" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_XppeJWprEeigk6ZrtpA40Q" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_XppeJmprEeigk6ZrtpA40Q" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_XppeJ2prEeigk6ZrtpA40Q" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_XppeKGprEeigk6ZrtpA40Q" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_XppeKWprEeigk6ZrtpA40Q" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_XppeKmprEeigk6ZrtpA40Q" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_XppeK2prEeigk6ZrtpA40Q" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_XppeLGprEeigk6ZrtpA40Q" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_XppeLWprEeigk6ZrtpA40Q" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_XppeLmprEeigk6ZrtpA40Q" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_XppeL2prEeigk6ZrtpA40Q" id="TalendStringUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_XppeMGprEeigk6ZrtpA40Q" id="DataQualityDependencies" version="Latest" type="routine"/>
+    </ItemsRelations>
     <migrationTask xmi:id="_NMcIkGngEeiIqf7rdUE6jA" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_NMcIkWngEeiIqf7rdUE6jA" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_NMcIkmngEeiIqf7rdUE6jA" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
@@ -236,7 +254,6 @@
     <migrationTask xmi:id="_Py8RDmngEeiIqf7rdUE6jA" id="org.talend.designer.xmlmap.migration.TXMLMapChangeAllInOneValueMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_Py8RD2ngEeiIqf7rdUE6jA" id="org.talend.designer.mapper.migration.TMapSaveToEmfMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_Py8REGngEeiIqf7rdUE6jA" id="org.talend.designer.dbmap.migration.ELTMapSaveToEmfMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
-    <migrationTask xmi:id="_Py8REWngEeiIqf7rdUE6jA" id="org.talend.repository.model.migration.FixProjectResourceLink" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_Py8REmngEeiIqf7rdUE6jA" id="org.talend.repository.model.migration.ResetValuetInfiniteLoop" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_Py8RE2ngEeiIqf7rdUE6jA" id="org.talend.repository.model.migration.UpgrateDatabaseTypeForSybaseConnection" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_Py8RFGngEeiIqf7rdUE6jA" id="org.talend.repository.model.migration.RenamePasswordParaForLdapMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
@@ -466,6 +483,7 @@
     <migrationTask xmi:id="_Py9fl2ngEeiIqf7rdUE6jA" id="org.talend.repository.model.migration.WriteJSONQuoteAllValuesMigrationTask" breaks="7.0.1" version="7.0.1" status="noimpact"/>
     <migrationTask xmi:id="_Py9fmGngEeiIqf7rdUE6jA" id="org.talend.core.migration.ItemSaveTriggerWholeDoc" breaks="7.0.0" version="7.0.0" status="noimpact"/>
     <migrationTask xmi:id="_Py9fmWngEeiIqf7rdUE6jA" id="org.talend.repository.model.migration.FileInputPositionalByteLengthMigrationTask" breaks="7.0.1" version="7.0.1" status="noimpact"/>
+    <migrationTask xmi:id="_Py8REWngEeiIqf7rdUE6jA" id="org.talend.repository.model.migration.FixProjectResourceLink" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_Py9fmmngEeiIqf7rdUE6jA" id="org.talend.repository.model.migration.AutoUpdateRelationsMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_K37vUmngEeiIqf7rdUE6jA" login="mbalkenende@mba.talend.com" firstName="Mark" lastName="Balkenende" type="DQ"/>
