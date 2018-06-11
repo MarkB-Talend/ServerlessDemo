@@ -17,6 +17,7 @@
     <module>jobs/process/Snowflake/snowflake_elt_651_0.1</module>
     <module>jobs/process/clickstream_load_and_elt_snowflake_0.1</module>
     <module>jobs/process/Snowflake/j_clickstreamtosnowflake_0.1</module>
+    <module>jobs/process/clickstreamtosnowflakecopy_0.1</module>
   </modules>
   <properties>
     <talend.project.name>SERVERLESSDEMO</talend.project.name>
