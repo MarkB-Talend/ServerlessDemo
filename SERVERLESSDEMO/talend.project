@@ -648,4 +648,5 @@
   <TalendProperties:User xmi:id="_Jh1O42prEeigk6ZrtpA40Q" login="aswanson@mba.talend.com" firstName="Aaron" lastName="Swanson" type="DQ"/>
   <TalendProperties:User xmi:id="_Jh118GprEeigk6ZrtpA40Q" login="ssmith@mba.talend.com" firstName="Sam" lastName="Smith" type="DQ"/>
   <TalendProperties:User xmi:id="_Jh118WprEeigk6ZrtpA40Q" login="jackie@mba.talend.com" firstName="Jacquelynn" lastName="Kapocius" type="DQ"/>
+  <TalendProperties:User xmi:id="_g6I8YcB-EeifzZhUR934NA" login="mbalkenende@talend.com"/>
 </xmi:XMI>
