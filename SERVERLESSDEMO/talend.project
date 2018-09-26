@@ -237,7 +237,6 @@
     </ItemsRelations>
     <ItemsRelations xmi:id="_jgCBH8B-EeifzZhUR934NA">
       <baseItem xmi:id="_jgCBIMB-EeifzZhUR934NA" id="_AliLUFDaEeiautgjhmoUnw" version="0.1" type="job"/>
-      <relatedItems xmi:id="_jgCBIcB-EeifzZhUR934NA" id="_WjdjEEhGEeiakt3D8iq3_Q" version="Latest" type="property"/>
       <relatedItems xmi:id="_jgCBIsB-EeifzZhUR934NA" id="SQLike" version="Latest" type="routine"/>
       <relatedItems xmi:id="_jgCBI8B-EeifzZhUR934NA" id="Numeric" version="Latest" type="routine"/>
       <relatedItems xmi:id="_jgCBJMB-EeifzZhUR934NA" id="TalendString" version="Latest" type="routine"/>
@@ -254,10 +253,6 @@
       <relatedItems xmi:id="_jgCBL8B-EeifzZhUR934NA" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_jgCBMMB-EeifzZhUR934NA" id="MDM" version="Latest" type="routine"/>
       <relatedItems xmi:id="_jgCBMcB-EeifzZhUR934NA" id="TalendStringUtil" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_jgCBMsB-EeifzZhUR934NA" id="_WjdjEEhGEeiakt3D8iq3_Q - WF_PRODUCT_CATALOG" version="Latest" type="schema"/>
-      <relatedItems xmi:id="_jgCBM8B-EeifzZhUR934NA" id="_WjdjEEhGEeiakt3D8iq3_Q - WORLD_FASHION_CLICKSTREAM_RPT" version="Latest" type="schema"/>
-      <relatedItems xmi:id="_jgCBNMB-EeifzZhUR934NA" id="_WjdjEEhGEeiakt3D8iq3_Q - GEODATA" version="Latest" type="schema"/>
-      <relatedItems xmi:id="_jgCBNcB-EeifzZhUR934NA" id="_WjdjEEhGEeiakt3D8iq3_Q - WORLD_FASHION_CLICKSTREAM_GEO_RPT" version="Latest" type="schema"/>
     </ItemsRelations>
     <migrationTask xmi:id="_NMcIkGngEeiIqf7rdUE6jA" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_NMcIkWngEeiIqf7rdUE6jA" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
