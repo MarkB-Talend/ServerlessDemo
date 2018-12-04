@@ -388,10 +388,6 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_WjdjEEhGEeiakt3D8iq3_Q",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
     "id" : "DQTechnical",
     "version" : "Latest",
     "type" : "routine"
@@ -455,22 +451,6 @@
     "id" : "TalendStringUtil",
     "version" : "Latest",
     "type" : "routine"
-  }, {
-    "id" : "_WjdjEEhGEeiakt3D8iq3_Q - GEODATA",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_WjdjEEhGEeiakt3D8iq3_Q - WF_PRODUCT_CATALOG",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_WjdjEEhGEeiakt3D8iq3_Q - WORLD_FASHION_CLICKSTREAM_GEO_RPT",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_WjdjEEhGEeiakt3D8iq3_Q - WORLD_FASHION_CLICKSTREAM_RPT",
-    "version" : "Latest",
-    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
