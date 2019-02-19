@@ -402,8 +402,8 @@
       <column comment="" key="false" length="4" name="LONGSTATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="2" name="ISO2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="ISO3" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="LAT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="7" type="id_Double" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="LONG" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="LAT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="7" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="LONG" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="6" name="TERRITORY" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="TIMEZONE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="DISTANCE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -416,8 +416,8 @@
       <column comment="" key="false" length="4" name="LONGSTATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="2" name="ISO2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="ISO3" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="LAT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="7" type="id_Double" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="LONG" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="LAT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="7" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="LONG" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="6" name="TERRITORY" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="TIMEZONE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="DISTANCE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -488,8 +488,8 @@
         <mapperTableEntries expression="row1.LONGSTATE" name="LONGSTATE" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row1.ISO2" name="ISO2" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row1.ISO3" name="ISO3" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row1.LAT == 'NULL' ? 0 : row1.LAT ; " name="LAT" nullable="true" type="id_Double"/>
-        <mapperTableEntries expression="row1.LONG" name="LONG" nullable="true" type="id_Double"/>
+        <mapperTableEntries expression="row1.LAT == 'NULL' ? 0 : row1.LAT.parseDouble() ; " name="LAT" nullable="true" type="id_Double"/>
+        <mapperTableEntries expression="" name="LONG" nullable="true" type="id_Double"/>
         <mapperTableEntries expression="row1.TERRITORY" name="TERRITORY" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row1.TIMEZONE" name="TIMEZONE" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row1.DISTANCE" name="DISTANCE" nullable="true" type="id_String"/>
@@ -502,8 +502,8 @@
         <mapperTableEntries name="LONGSTATE" nullable="true" type="id_String"/>
         <mapperTableEntries name="ISO2" nullable="true" type="id_String"/>
         <mapperTableEntries name="ISO3" nullable="true" type="id_String"/>
-        <mapperTableEntries name="LAT" nullable="true" type="id_Double"/>
-        <mapperTableEntries name="LONG" nullable="true" type="id_Double"/>
+        <mapperTableEntries name="LAT" nullable="true" type="id_String"/>
+        <mapperTableEntries name="LONG" nullable="true" type="id_String"/>
         <mapperTableEntries name="TERRITORY" nullable="true" type="id_String"/>
         <mapperTableEntries name="TIMEZONE" nullable="true" type="id_String"/>
         <mapperTableEntries name="DISTANCE" nullable="true" type="id_String"/>
@@ -613,13 +613,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_9ed49dae-439b-46c0-8a2c-423814ecec72"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>q7YsmgZmi1ylAhAqniVaHISjX6RHfoZ5/y0bXfFkfkpdlEw0iFElkBi4h0J/3jFOoZWdIvi5xXnP
-vau39OIRxQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_e85f9c4c-664d-4448-b9da-64ef111614aa"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>jl8gR+iL5dbxyiaduJOlVGOygrCjvmJ6vncGbEaaz34+lE4u8OmYwTWjU9Hp/iYvJYdY3kTC1t27
-ZUm4ROh4MA==</DigestValue></Reference></SignedInfo><SignatureValue>KWbNCTHgtRk/GTPYHdVqHlRcj86CBblm+PmfqLlY443B2OPc9cSOqmJqccKg7XQhNd+H2NInjWxC
-CNFCPp+S+BHTbGCNTFao0IPUMKl/rlJCQjw6EZGBRWW3UJVzqNmQ5ci6ngiSZ9H/oYbbKZc0fMFH
-lIfAuH8H08U2SqhhXV4voYjteofQcdNOCD7T2N10g8zWqI+AaQUshGpk098ZKnq1cEHZEOnL8ZG0
-FO4U+vCxyC8nXV2PrTkC24Vd3oxVOO7R8H3qBdGZ37xb+xqOzApab2OmeS0zX3bVv73A/Ntbj/cH
-zVa29S9su6oyktol0+bK46HJzRVSc/ryTSWV6g==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_929fbf4e-d64f-484f-8a33-dc216add91ce"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>TAdehv0jweNvK/d1q2kTkp49gxNx99taePhgph61LFwN+VtX8GqI93OSAzemi6+sXZRHgmVPKSTf
+I/93Q3t+UQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_c24d5bfc-50e5-42b7-9248-c187c5ee705e"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ER1U/JvWjkeIRRA88QPt90lsoj7To5DiClnYx8jGL8H8hh2Qkk036yS2crsfwquEdWEHi+g3dOlc
+D48mrmq1jQ==</DigestValue></Reference></SignedInfo><SignatureValue>3FyRef9PXDYv2Fw/GYLpQ+TXcRZup1H49YpD3pabEYsmevC0bOR8N0zBbAedoHm1zZ2qctFVQ39M
+9mkpLxtiWGEWILpCHY6kQsyVhDTidCrdxmmblZDf3E1aEf6pWKWkbS/3/6hFw1IEOuvfBynW5xP7
+s2q6B93zFMFyWBrOTZSvLC8xCecBKZ0+xBE+2VA/RAYRHWiUlbTPe/CByMxFgEIoAxuDj440phmU
+Qg0YNkXDWj6jXJy03n2vh7CEk0Xdjhrob4CKgU+JDpxSHHeGcqN/0RMV3nelm/upCk90P/lj54if
+4eQf/Kia4hKH01awKjUr2PGCLEebx05ByZmHug==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
 BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
 RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
 LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
@@ -643,4 +643,4 @@ r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
 EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
 BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
 6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
-Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_e85f9c4c-664d-4448-b9da-64ef111614aa" Target="#_9ed49dae-439b-46c0-8a2c-423814ecec72"><Timestamp>2019-02-19 20:03:31</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_c24d5bfc-50e5-42b7-9248-c187c5ee705e" Target="#_929fbf4e-d64f-484f-8a33-dc216add91ce"><Timestamp>2019-02-19 20:07:47</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
